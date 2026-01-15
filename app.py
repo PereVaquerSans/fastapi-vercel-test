@@ -5,15 +5,16 @@ app = FastAPI()
 #Root route
 @app.get("/")
 def root():
-   return {"message: Welcome to the main route"}
+   return {"mensaje para mi polletin"}
 
 # Route to display info for ítems
 @app.get("/items/")
 def items():
-   return {"message: Welcome to the items route"}
+   return {"mensaje para mi polletaso"}
 
 # Route to display info fot updating items
 @app.get("/items/update/")
 def update_items():
 
-   return {"message: Welcome to the update item route"}
+   return {"mensaje para mi polletón"}
+
