@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-app = fastAPI()
+app = FastAPI()
 
 #Root route
 @app.get("/")
@@ -15,4 +15,5 @@ def items():
 # Route to display info fot updating items
 @app.get("/items/update/")
 def update_items():
+
    return {"message: Welcome to the update item route"}
